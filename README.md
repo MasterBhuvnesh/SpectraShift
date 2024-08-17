@@ -19,10 +19,11 @@ You also need to install the required npm packages:
 
 ```bash
 npm install express mongoose cors
-```
+
 
 .
 ├── index.js # Main application file
 ├── models
 │ └── Users.js # Mongoose model for Users collection
 └── README.md # Project documentation
+```
