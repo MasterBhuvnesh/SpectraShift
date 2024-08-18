@@ -8,7 +8,7 @@ app.use(express.json());
 mongoose.connect(
   "mongodb+srv://bhuvneshverma:Verma29042005@collage.lkkh7mp.mongodb.net/Quotes"
 );
-
+// Well its just main branch
 // GET ALL USER DATA
 app.get("/", (req, res) => {
   UserModel.find({})
