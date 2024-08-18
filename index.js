@@ -5,7 +5,7 @@ const UserModel = require("./models/Users");
 const app = express();
 app.use(express.json());
 
-// its a url
+// its a url    main
 mongoose.connect(
   "mongodb+srv://bhuvneshverma:Verma29042005@collage.lkkh7mp.mongodb.net/Quotes"
 );
